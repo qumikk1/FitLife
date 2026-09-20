@@ -10,7 +10,7 @@ user_age = int(input('Сколько вам полных лет?'))
 user_weight = float(input('Какой у Вас вес (в кг)?'))
 user_height = float(input('Какой у Вас рост (в метрах)?'))
 
-# Step 3 
+# Step 3
 bmi = round(user_weight / (user_height ** 2), 1)
 water_needed_ml = user_weight * 30
 water_needed_l = round(water_needed_ml / 1000, 1)
