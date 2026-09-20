@@ -1,6 +1,7 @@
 import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
+
 # step 1
 user_name = input('Приветствую тебя, как к тебе можно обращаться?')
 user_age = int(input('Сколько вам полных лет?'))
